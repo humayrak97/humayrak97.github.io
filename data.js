@@ -55,8 +55,7 @@ export const projects = {
         {
             projectName: "Disability Care",
             image: "images/care.png",
-            summary:
-                "Deployed a guided website to provide all sorts of medical services to disabled people.",
+            summary: "Disability Care. A guided website to provide all sorts of medical services to disabled people.",
             preview: "https://github.com/humayrak97/Healthcare",
             techStack: ["Reactjs", "Java","SpringBoot", "JavaScript", "Firestore DB","Javascript","Heroku"],
         },
@@ -82,7 +81,7 @@ export const projects = {
             projectName: "File Search Engine",
             image: "images/searchengine.png",
             summary:
-                "A Search Engine application for crawling websites and fetching user specified files.",
+            "File Search Engine. A Search Engine application for crawling websites and fetching user specified files.",
             preview: "https://github.com/humayrak97/File-Search-Engine-App",
             techStack: ["Django","Python", "HTML","CSS","Bootstrap", "REST API","Android"],
         },
@@ -147,7 +146,7 @@ export const experience = [
         duration: "2023",
         subtitle: "Alif Elham Khan, Humayra Anjum,  Mahdy Rahman Chowdhury ",
         details: [
-            " A novel loss function demonstrates superior performance consistently while using less memory and computation.",
+            " First ever demonstration of quantum energy teleportation across multi qubits systems on real device.",
             'Ongoing Research'
         ],
 
@@ -156,7 +155,7 @@ export const experience = [
     },
     {
         title: "Shadow: A Novel Loss Function for Efficient Training in Siamese Networks",
-        duration: "2023",
+        duration: "2022",
         subtitle: "Alif Elham Khan, Mohammad Junayed Hasan, Humayra Anjum, Nabeel Mohammed",
         details: [
             " A novel loss function demonstrates superior performance consistently while using less memory and computation.",
@@ -168,15 +167,15 @@ export const experience = [
     },
     {
         title: "Predicting life satisfaction using machine learning and explainable AI",
-        duration: "2023",
+        duration: "2022",
         subtitle: "Alif Elham Khan, Mohammad Junayed Hasan, Humayra Anjum, Nabeel Mohammed, Sifat Momen",
         details: [
-            " A novel loss function demonstrates superior performance consistently while using less memory and computation.",
+            " Predicts life satisfaction with 96% accuracy using an ensemble of ML algorithms. ",
             'Submitted for Publication'
         ],
         //link: "https://huggingface.co/spaces/humayrak97/Life-Satisfaction-ML-XAI",
         tags: [ "Machine Learning", "AI", "Explainable AI", "Life Satisfaction"],
-        icon: "group",
+        icon: "heartbeat",
     },
    /* {
         title: "Biofourmis India Private Limited",
