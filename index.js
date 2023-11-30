@@ -13,9 +13,9 @@ import { URLs } from './user-data/urls.js';
   //  projects;
   const { webProjects, softwareProjects} =
     projects;
-  const { medium, gitConnected } = URLs;
+  const { gitConnected } = URLs;
   
-  /**
+  /** 
    * Fetches blogs from Medium profile.
    *
    * @function
@@ -23,10 +23,10 @@ import { URLs } from './user-data/urls.js';
    *
    * @throws {Error} If there is any error in fetching the blogs from Medium profile.
    *
-   * @returns {void}
+   * @returns {void} 
    */
   
-  async function fetchBlogsFromMedium(url) {
+  /*async function fetchBlogsFromMedium(url) {
     try {
       const response = await fetch(url);
       const { items } = await response.json();
@@ -37,7 +37,7 @@ import { URLs } from './user-data/urls.js';
       );
     }
   }
-
+*/
 
   async function fetchGitConnectedData(url) {
     try {
@@ -103,7 +103,7 @@ import { URLs } from './user-data/urls.js';
   
   /**
    * Populates skills to the HTML page.
-   *
+   */ /*
    * @function
    *
    * @param {Array} items - An array of objects that contain skill information.
@@ -217,7 +217,7 @@ import { URLs } from './user-data/urls.js';
   
   /**
    * Creates and populates a list of blog posts with specified properties
-   *
+   */ /*
    * @function
    *
    * @param {Array} items - An array of objects, each representing a blog post
@@ -225,7 +225,7 @@ import { URLs } from './user-data/urls.js';
    *
    * @returns {undefined}
    */
-  
+  /*
   function populateBlogs(items, id) {
     const projectdesign = document.getElementById(id);
     const count = 3;
@@ -290,7 +290,7 @@ import { URLs } from './user-data/urls.js';
         projectdesign.append(document.createElement("hr"));
       }
     }
-  }
+  } */
   
   /**
    * Populate the HTML timeline with items.
@@ -446,15 +446,15 @@ import { URLs } from './user-data/urls.js';
   
   populateBio(bio, "bio");
   
-  populateSkills(skills, "skills");
+  //populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
+ // fetchBlogsFromMedium(medium);
   fetchGitConnectedData(gitConnected);
   
   populateProjects(webProjects, "web-projects");
   populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+  //populateProjects(androidProjects, "android-projects");
+  //populateProjects(freelanceProjects, "freelance-projects");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
