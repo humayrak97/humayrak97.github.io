@@ -162,7 +162,7 @@ export const experience = [
             " A novel loss function demonstrates superior performance consistently while using less memory and computation.",
             'Submitted for Publication'
         ],
-        link: "https://arxiv.org/pdf/2311.14012.pdf",
+        //link: "https://arxiv.org/pdf/2311.14012.pdf",
         tags: ["HAM", "ODIR", "CIFAR100", "CIFAR10", "MNIST", "FASHIONMNIST", "Similarity Detection"],
         icon: "group",
     },
@@ -174,7 +174,7 @@ export const experience = [
             " A novel loss function demonstrates superior performance consistently while using less memory and computation.",
             'Submitted for Publication'
         ],
-        link: "https://huggingface.co/spaces/humayrak97/Life-Satisfaction-ML-XAI",
+        //link: "https://huggingface.co/spaces/humayrak97/Life-Satisfaction-ML-XAI",
         tags: [ "Machine Learning", "AI", "Explainable AI", "Life Satisfaction"],
         icon: "group",
     },

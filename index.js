@@ -1,15 +1,17 @@
 import {
     bio,
-    skills,
+    //skills,
     projects,
-    education,
     experience,
+    education,
     footer,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
   
-  const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
+  //const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
+  //  projects;
+  const { webProjects, softwareProjects} =
     projects;
   const { medium, gitConnected } = URLs;
   
@@ -109,7 +111,7 @@ import { URLs } from './user-data/urls.js';
    *
    * @returns {void}
    */
-  
+  /*
   function populateSkills(items, id) {
     const skillsTag = document.getElementById(id);
     items.forEach(({ skillName, color, percentage }) => {
@@ -130,7 +132,7 @@ import { URLs } from './user-data/urls.js';
       skillsTag.append(divAnimateBox);
     });
   }
-  
+  */
   /**
    * Populates projects to the HTML page.
    *
