@@ -1,5 +1,5 @@
 export const bio = [
-    "Hello there, this is Humayra Anjum. I am currently a Research Assistant at the Electrical and Computer Engineering department of North South University. My research interests are Machine Learning, Artifial Intelligence, Data Science and Quantum Computing ",
+    "Hello there, this is Humayra Anjum. I am currently a Research Assistant at the Electrical and Computer Engineering department of North South University. My research interests are Machine Learning, Artifial Intelligence, Data Science and Quantum Computing. My other pursuits involve Graphics Designing with a focus through compelling UI/UX design. Pixel-perfectionist with a love for clean aesthetics and and a dash of data science flair. ",
     `Eager to apply my technical expertise and in-depth product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
     "Thanks for taking the time to learn a little about me!",
 ];
@@ -59,6 +59,14 @@ export const projects = {
             preview: "https://github.com/humayrak97/Healthcare",
             techStack: ["Reactjs", "Java","SpringBoot", "JavaScript", "Firestore DB","Javascript","Heroku"],
         },
+        {
+            projectName: "Zakat App ",
+            image: "images/zakat.png",
+            summary:
+            "Zakat App. A multi-functional website with an easy-to-use interface to calculate and pay Zakat.",
+            preview: "https://github.com/humayrak97/Zakat-Calculator-",
+            techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScripDjango"],
+        },
         /*{
             projectName: "Web Portfolio",
             image: "images/portfolio.png",
@@ -85,6 +93,7 @@ export const projects = {
             preview: "https://github.com/humayrak97/File-Search-Engine-App",
             techStack: ["Django","Python", "HTML","CSS","Bootstrap", "REST API","Android"],
         },
+        
         /*{
             projectName: "WhatsApp-Bot",
             image: "images/whatsappbot.jpg",
@@ -240,6 +249,8 @@ export const education = [
             "Data Science",
             "Data Structures & Algorithms",
             "Operating Systems",
+            "UI/ UX design",
+            "Product Design",
             "Database Management System",
             
         ],
