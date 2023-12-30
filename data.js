@@ -65,7 +65,15 @@ export const projects = {
             summary:
             "Zakat App. A multi-functional website with an easy-to-use interface to calculate and pay Zakat.",
             preview: "https://github.com/humayrak97/Zakat-Calculator-",
-            techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScripDjango"],
+            techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        },
+        {
+            projectName: "Bus Management System ",
+            image: "images/bus.png",
+            summary:
+            "Bus Management. A easy-to-use website to book a bus service.",
+            preview: "https://github.com/humayrak97/CSE311_Team-9_Bus_Management_System",
+            techStack: ["Django","Python", "Figma", "MySQL", "HTML", "CSS"],
         },
         /*{
             projectName: "Web Portfolio",
