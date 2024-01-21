@@ -1,5 +1,5 @@
 export const bio = [
-    "Hello there, this is Humayra Anjum. I am currently a Research Assistant at the Electrical and Computer Engineering department of North South University. My research interests are Machine Learning, Artifial Intelligence, Data Science and Quantum Computing. My other pursuits involve Graphics Designing with a focus through compelling UI/UX design. Pixel-perfectionist with a love for clean aesthetics and and a dash of data science flair. ",
+    "Hello there, this is Humayra Anjum. I am currently a Research Assistant at the Electrical and Computer Engineering department of North South University. My research interests are Machine Learning, Artifial Intelligence, Data Science and Quantum Computing. I also advise research students on these topics at Bangladesh’s first <a href='https://sites.google.com/view/mahdyresearchacademy/home?authuser=0'>Quantum Research Academy</a>. My other pursuits involve Graphics Designing with a focus through compelling UI/UX design. Pixel-perfectionist with a love for clean aesthetics and a dash of data science flair. ",
     `Eager to apply my technical expertise and in-depth product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
     "Thanks for taking the time to learn a little about me!",
 ];
